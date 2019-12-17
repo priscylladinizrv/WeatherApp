@@ -34,13 +34,15 @@
       android:layout_width="wrap_content"
       android:layout_height="match_parent"
       android:layout_marginRight="8dp"
-      android:text="°C" />
+      android:text="°C"
+      android:onClick="onRadioButtonClickedUnit"/>
 
     <RadioButton
       android:id="@+id/radioButtonF"
       android:layout_width="wrap_content"
       android:layout_height="match_parent"
-      android:text="ºF" />
+      android:text="ºF"
+      android:onClick="onRadioButtonClickedUnit"/>
   </RadioGroup>
 
   <TextView
@@ -67,13 +69,15 @@
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       android:layout_marginRight="8dp"
-      android:text="EN" />
+      android:text="EN"
+      android:onClick="onRadioButtonClickedLanguage"/>
 
     <RadioButton
       android:id="@+id/radioButtonPT"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
-      android:text="PT" />
+      android:text="PT"
+      android:onClick="onRadioButtonClickedLanguage"/>
   </RadioGroup>
 
 
